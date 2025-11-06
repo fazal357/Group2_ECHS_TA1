@@ -1,0 +1,29 @@
+2. WORKING PROCEDURE (Step-by-Step Commands)
+Step 1: Update System
+sudo apt update && sudo apt upgrade -y
+
+Step 2: Install Dependencies
+sudo apt install python3-opencv python3-numpy gstreamer1.0-tools -y
+
+
+✅ These are lightweight and already optimized for Jetson Nano Orin.
+
+Step 3: Verify Camera Stream
+
+Before running, make sure your mobile camera stream is live and reachable:
+
+gst-launch-1.0 rtspsrc location=rtsp://username:password@ip_address:554/your_stream ! decodebin ! autovideosink
+
+
+If you see your stream — it’s working!
+
+Step 4: Run the Histogram Script
+python3 live_histogram.py
+
+Step 5: Controls
+
+Press q → Quit the application
+
+The window titled “RTSP Feed” shows the live video
+
+The window titled “Live Histogram (BGR)” shows color intensity distribution
