@@ -57,6 +57,13 @@ Green curve → Green intensity distribution
 
 Red curve → Red intensity distribution
 
+<img width="794" height="564" alt="Screenshot 2025-11-06 120547" src="https://github.com/user-attachments/assets/467f0f38-dd1b-4d2e-8f45-7f629cc3c90d" />
+
+<br> </br>
+  
+<img width="781" height="563" alt="image" src="https://github.com/user-attachments/assets/a7d1bb2e-8a99-45c7-9c16-d0c3e93eb2b3" />
+
+
 # 🧮 How It Works
 
 The program continuously captures frames from the RTSP source.
